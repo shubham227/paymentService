@@ -13,7 +13,7 @@ public class StripePaymentImplementation implements PaymentService {
 
     @Override
     public String makePayment(String orderId, Long amount) throws StripeException {
-        Stripe.apiKey = "sk_test_51PTHaX08OP2NtfZs4AfDn8a005MR1xJ6nkgLmVnvN2uu92W2nN4MFp6oJxmzmbN2Uh5fGch5y1Icuxn9ZUCJTCyg00SHeeL9NF";
+        Stripe.apiKey = "stripe Api key";
 
         PriceCreateParams params =
                 PriceCreateParams.builder()
